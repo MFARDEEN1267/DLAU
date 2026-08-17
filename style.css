@@ -1,0 +1,40 @@
+body{
+    background-color: rgba(9, 9, 9, 0.868);
+}
+.video-container {
+     position: absolute;
+  top: 0%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  object-fit: cover;
+  filter: blur(10px);
+
+  /* Added rotate(90deg) to the transform string */
+  transform: translate(-50%, -50%) scale(1.1) rotate(270deg);
+}
+.timebox {
+color: #edece8;
+margin-left: 2%;
+margin-top: 15%;
+display: flex;
+font-size: 70px;
+}
+#days {
+    margin: 3rem;
+}
+#hours {
+    margin: 3rem;
+}
+#minutes{
+    margin: 3rem;
+}
+#countdown {   
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
