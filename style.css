@@ -17,24 +17,54 @@ body{
   transform: translate(-50%, -50%) scale(1.1) rotate(270deg);
 }
 .timebox {
-color: #edece8;
+color: rgb(252, 253, 255);
 margin-left: 2%;
 margin-top: 15%;
 display: flex;
-font-size: 70px;
+font-size: 60px;
 }
 #days {
     margin: 3rem;
+       font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
 }
 #hours {
     margin: 3rem;
+         font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
 }
 #minutes{
     margin: 3rem;
+      font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
 }
 #countdown {   
-  font-family: "Cinzel", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
+    font-family: "Bowlby One SC", sans-serif;
+  font-weight: 400;
   font-style: normal;
+}
+h1 {
+font-family: "Bowlby One SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 75%;
+  margin-top: -5%;
+  color: rgb(252, 253, 255);
+  font-size: 15px;
+  
 }
