@@ -74,12 +74,14 @@ button {
   font-style: italic; 
   border: none;           
   border-radius: 7px;
+  transition: 800ms;
 }
 button:hover {
   color: rgb(24, 20, 19);
   background-color: rgb(231, 21, 9);
-   zoom: 1.25;
+  
    border: 3cap;
+    box-shadow: 2px 4px black;
 }
 h2 {
   margin-top: 27%;
@@ -89,4 +91,5 @@ h2 {
   background-color: aliceblue;
  border-radius: 10px;
 margin-inline-end: 20%;
+ box-shadow: 2px 4px black;
 }
