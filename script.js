@@ -1,5 +1,5 @@
 // Set your target end date here (YYYY-MM-DDTHH:MM:SS)
-const targetDate = new Date("2026-12-18T23:59").getTime();
+const targetDate = new Date("2026-12-17T23:59").getTime();
 
 function updateCountdown() {
   const now = new Date().getTime();
@@ -18,7 +18,7 @@ function updateCountdown() {
     document.getElementById("minutes").innerText = String(minutes).padStart(2, '0');
   } else {
     // Message when countdown finishes
-    document.getElementById("countdown").innerHTML = "<h2>Event Started!</h2>";
+    document.getElementById("countdown").innerHTML = "<h2>ITS DOOMSDAY!</h2>";
   }
 }
 

@@ -2,7 +2,7 @@ body{
     background-color: rgba(9, 9, 9, 0.868);
 }
 .video-container {
-     position: absolute;
+   position: absolute;
   top: 0%;
   left: 50%;
   min-width: 100%;
@@ -12,8 +12,6 @@ body{
   z-index: -1;
   object-fit: cover;
   filter: blur(10px);
-
-  /* Added rotate(90deg) to the transform string */
   transform: translate(-50%, -50%) scale(1.1) rotate(270deg);
 }
 .timebox {
@@ -63,8 +61,27 @@ font-family: "Bowlby One SC", sans-serif;
   font-weight: 400;
   font-style: normal;
   margin-left: 75%;
-  margin-top: -5%;
+  margin-top: -8%;
   color: rgb(252, 253, 255);
   font-size: 15px;
+  
+}
+button {
+  margin-left: 38%;
+  cursor: pointer;
+  background-color: gold;
+  font-weight: 600;
+  font-style: italic; 
+  border: none;           
+  border-radius: 7px;
+}
+button:hover {
+  color: rgb(24, 20, 19);
+  background-color: rgb(231, 21, 9);
+   zoom: 1.25;
+   border: 3cap;
+}
+.subpage {
+  margin-left: 5px;
   
 }
