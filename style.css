@@ -23,7 +23,7 @@ font-size: 60px;
 }
 #days {
     margin: 3rem;
-       font-family: "Nabla", system-ui;
+      font-family: "Nabla", system-ui;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -92,4 +92,77 @@ h2 {
  border-radius: 10px;
 margin-inline-end: 20%;
  box-shadow: 2px 4px black;
+}
+@media (max-width: 768px) {
+ .video-container {
+  top: 40%;
+}
+  #days {
+   font-size: 70px;
+   margin-left: 8%;
+ position: relative;
+ margin-top: 80px;
+ 
+  }
+  #hours { 
+      font-size: 70px;
+   margin-left: 10%;
+  }
+  #minutes {
+ font-size: 70px;
+   margin-left: 10%;
+  }
+
+  .timebox {
+color: rgb(252, 253, 255);
+margin-left: 38%;
+margin-top: -9%;
+display: block;
+font-size: 39px;
+padding-bottom: 0%;
+}
+ h1 {
+font-family: "Bowlby One SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 29%;
+  margin-top: -15%;
+  color: rgb(252, 253, 255);
+  font-size: 12px;
+display: block;
+}
+button {
+  margin-left: 35%;
+  cursor: pointer;
+  background-color: gold;
+  font-weight: 600;
+  font-style: italic; 
+  border: none;           
+  border-radius: 20px;
+  transition: 800ms;
+  margin-top: -150%;
+  margin-left: 65px;
+  background-size: 5px;
+
+}
+.minuteslabel{
+ margin-top: -10%;
+ margin-left: -10%;
+}
+h2 {
+  margin-top: 80%;
+   margin-left: 35px;
+    width: 90%;
+    border-radius: 1px;
+    background-color: black;
+    box-shadow: none;
+     overflow-x: hidden;
+  min-height: 100%;
+ 
+}
+body {
+  background-color: rgb(0, 0, 0);
+  overflow-x: hidden;
+  min-height: 100%;
+}
 }
