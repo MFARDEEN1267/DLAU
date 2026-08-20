@@ -92,9 +92,9 @@ button:hover {
 }
 
 h2 {
-  color: rgb(234, 6, 6); 
+  color:  aliceblue; 
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-  background-color: aliceblue; 
+  background-color: rgb(234, 6, 6);
   border-radius: 10px; 
   box-shadow: 2px 4px black; 
   padding: 8px 16px;
