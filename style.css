@@ -109,7 +109,12 @@ h2 {
     flex-direction: column;
     text-align: center;
     gap: 0.5rem;
+    font-size: 38px;
+
   }
+.video-container {
+  top: 40%;
+}
 
   .timebox p {
     margin: 0 0 1rem 0;
@@ -126,7 +131,8 @@ h2 {
 
   h2 {
     width: 90%; 
-    background-color: black; 
+    background-color: red; 
     box-shadow: none; 
+    color: white;
   }
 }
